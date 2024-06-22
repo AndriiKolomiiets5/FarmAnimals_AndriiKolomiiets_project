@@ -12,5 +12,5 @@ std::string Sheep::Breed() {
 	return "Merino";
 }
 std::string Sheep::Size() {
-	return "Small"
+	return "Small";
 }

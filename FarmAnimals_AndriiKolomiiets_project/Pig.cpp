@@ -12,5 +12,5 @@ std::string Pig::Breed() {
 	return "Large White pig";
 }
 std::string Pig::Size() {
-	return "Small"
+	return "Small";
 }

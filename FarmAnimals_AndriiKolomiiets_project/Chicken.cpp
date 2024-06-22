@@ -12,5 +12,5 @@ std::string Chicken::Breed() {
 	return "Cochin";
 }
 std::string Chicken::Size() {
-	return "Small"
+	return "Small";
 }
