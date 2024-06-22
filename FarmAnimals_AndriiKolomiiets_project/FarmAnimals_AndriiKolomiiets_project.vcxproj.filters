@@ -27,6 +27,9 @@
     <ClInclude Include="Chicken.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Horse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp">
