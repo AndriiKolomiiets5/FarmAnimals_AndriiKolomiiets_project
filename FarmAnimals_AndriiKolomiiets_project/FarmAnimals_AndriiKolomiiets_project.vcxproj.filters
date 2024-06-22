@@ -36,7 +36,7 @@
     <ClInclude Include="ExpFarmer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ExpFramerTest.h">
+    <ClInclude Include="ExpFarmerTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AnimalTest.h">
@@ -65,10 +65,13 @@
     <ClCompile Include="ExpFarmer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExpFramerTest.cpp">
+    <ClCompile Include="ExpFarmerTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="k.cpp">
+    <ClCompile Include="AnimalTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmAnimalsMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

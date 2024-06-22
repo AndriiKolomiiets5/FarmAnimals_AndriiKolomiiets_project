@@ -132,19 +132,20 @@
     <ClInclude Include="Chicken.h" />
     <ClInclude Include="Cow.h" />
     <ClInclude Include="ExpFarmer.h" />
-    <ClInclude Include="ExpFramerTest.h" />
+    <ClInclude Include="ExpFarmerTest.h" />
     <ClInclude Include="Horse.h" />
     <ClInclude Include="Pig.h" />
     <ClInclude Include="Sheep.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="AnimalTest.cpp" />
     <ClCompile Include="Chicken.cpp" />
     <ClCompile Include="Cow.cpp" />
     <ClCompile Include="ExpFarmer.cpp" />
-    <ClCompile Include="ExpFramerTest.cpp" />
+    <ClCompile Include="ExpFarmerTest.cpp" />
+    <ClCompile Include="FarmAnimalsMain.cpp" />
     <ClCompile Include="Horse.cpp" />
-    <ClCompile Include="k.cpp" />
     <ClCompile Include="Pig.cpp" />
     <ClCompile Include="Sheep.cpp" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 #pragma once
 #include "Animal.h"
 
-void testName(Animal* a);
-void testAge(Animal* a);
-void testHP(Animal* a);
-void testPrice(Animal* a);
+void TestName(Animal* a);
+void TestAnimalName(Animal* a);
+void TestBreed(Animal* a);
+void TestSize(Animal* a);
