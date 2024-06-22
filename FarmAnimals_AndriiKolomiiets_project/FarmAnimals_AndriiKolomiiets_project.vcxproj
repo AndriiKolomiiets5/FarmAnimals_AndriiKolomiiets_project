@@ -138,6 +138,7 @@
     <ClCompile Include="Chicken.cpp" />
     <ClCompile Include="Horse.cpp" />
     <ClCompile Include="Pig.cpp" />
+    <ClCompile Include="Sheep.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
