@@ -1,16 +1,15 @@
-?#include <iostream>
-#include <string>
+﻿#include <string>
 #include <thread>
+#include <iostream>
 #include <chrono> 
 #include <Windows.h>
 #include <cstdlib> 
 #include <ctime> 
 #include "Animal.h"
-#include "Chiken.h"
+#include "Chicken.h"
 #include "Cow.h"
 #include "Horse.h"
 #include "Pig.h"
-#include "Souffle.h"
 #include "Sheep.h"
 #include "ExpFarmer.h"
 #include "ExpFarmerTest.h"
@@ -66,34 +65,34 @@ int main()
     cout << "Which Animal you would like to buy" << endl;
     ExpFarmer ExpFarmer("Key", "molt", FarmMoney);
 
-    TestName(&ExpFarmer);
+    TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Cow_);
 
     cout << "-----------" << endl;
     cout << "Week after:" << endl;
     this_thread::sleep_for(chrono::milliseconds(600));
-    TestName(&ExpFarmer);
+    TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Pig_);
 
     cout << "--------" << endl;
     cout << "2 weeks after:" << endl;
     this_thread::sleep_for(chrono::milliseconds(600));
 
-    TestName(&ExpFarmer);
+    TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Horse_);
 
     cout << "--------" << endl;
     cout << "3 weeks after:" << endl;
     this_thread::sleep_for(chrono::milliseconds(600));
 
-    TestName(&ExpFarmer);
+    TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Chicken_);
 
     cout << "------------------------------" << endl;
     cout << "Next day:" << endl;
     this_thread::sleep_for(chrono::milliseconds(900));
 
-    TestName(&ExpFarmer);
+    TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Sheep_);
 
 

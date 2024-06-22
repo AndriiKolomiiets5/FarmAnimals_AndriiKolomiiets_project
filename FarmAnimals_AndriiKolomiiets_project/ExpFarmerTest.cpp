@@ -6,7 +6,7 @@
 #include <thread>
 using namespace std;
 
-void Testname(ExpFarmer* z) {
+void TestFarmer(ExpFarmer* z) {
     cout << z->GetName() << " ";
     cout << z->GetSurname() << " ";
     cout << z->GetMoney()<< " zl" << endl;
