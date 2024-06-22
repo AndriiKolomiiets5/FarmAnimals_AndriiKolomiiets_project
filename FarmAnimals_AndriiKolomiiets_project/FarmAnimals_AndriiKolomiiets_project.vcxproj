@@ -141,7 +141,9 @@
     <ClCompile Include="Chicken.cpp" />
     <ClCompile Include="Cow.cpp" />
     <ClCompile Include="ExpFarmer.cpp" />
+    <ClCompile Include="ExpFramerTest.cpp" />
     <ClCompile Include="Horse.cpp" />
+    <ClCompile Include="k.cpp" />
     <ClCompile Include="Pig.cpp" />
     <ClCompile Include="Sheep.cpp" />
   </ItemGroup>

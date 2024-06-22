@@ -13,3 +13,4 @@ std::string Pig::Breed() {
 }
 std::string Pig::Size() {
 	return "Small";
+}

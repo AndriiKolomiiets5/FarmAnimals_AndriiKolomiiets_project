@@ -1,5 +1,5 @@
 #include "Horse.h"
-Chicken::Chicken(double _weight, double _age, double _HP, double _price) :
+Horse::Horse(double _weight, double _age, double _HP, double _price) :
 	Animal(_weight, _age, _HP, _price) {}
 std::string Horse::Name() {
 	return "Spirit";
