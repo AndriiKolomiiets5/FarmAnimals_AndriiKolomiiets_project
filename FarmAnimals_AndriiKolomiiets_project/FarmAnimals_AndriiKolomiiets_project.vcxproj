@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
+    <ClInclude Include="Chicken.h" />
     <ClInclude Include="Pig.h" />
     <ClInclude Include="Sheep.h" />
   </ItemGroup>
