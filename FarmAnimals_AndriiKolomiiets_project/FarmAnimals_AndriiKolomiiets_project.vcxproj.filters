@@ -30,18 +30,9 @@
     <ClInclude Include="Horse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Cow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pig.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Sheep.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="Chicken.cpp">
@@ -49,6 +40,9 @@
     </ClCompile>
     <ClCompile Include="Horse.cpp">
       <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pig.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
