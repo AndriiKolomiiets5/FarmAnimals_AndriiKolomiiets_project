@@ -131,6 +131,7 @@
     <ClInclude Include="Chicken.h" />
     <ClInclude Include="Cow.h" />
     <ClInclude Include="ExpFarmer.h" />
+    <ClInclude Include="ExpFramerTest.h" />
     <ClInclude Include="Horse.h" />
     <ClInclude Include="Pig.h" />
     <ClInclude Include="Sheep.h" />

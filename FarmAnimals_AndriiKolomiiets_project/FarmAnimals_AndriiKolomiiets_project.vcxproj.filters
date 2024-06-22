@@ -36,6 +36,9 @@
     <ClInclude Include="ExpFarmer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ExpFramerTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp">
