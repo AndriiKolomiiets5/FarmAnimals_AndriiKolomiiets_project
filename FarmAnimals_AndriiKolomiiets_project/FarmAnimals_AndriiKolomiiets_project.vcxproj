@@ -139,6 +139,7 @@
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Chicken.cpp" />
     <ClCompile Include="Cow.cpp" />
+    <ClCompile Include="ExpFarmer.cpp" />
     <ClCompile Include="Horse.cpp" />
     <ClCompile Include="Pig.cpp" />
     <ClCompile Include="Sheep.cpp" />
