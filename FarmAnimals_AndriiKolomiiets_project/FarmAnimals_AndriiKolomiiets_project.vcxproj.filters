@@ -32,5 +32,8 @@
     <ClCompile Include="Pig.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sheep.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
