@@ -7,11 +7,11 @@ using namespace std;
 
 void TestName(Animal* a) {
     this_thread::sleep_for(chrono::milliseconds(200));
-    cout<< a->Name() <<endl;
+    cout<<"<--" << a->Name() <<"-->" << endl;
 }
 
 void TestAnimalName(Animal* a) {
-    cout << "It  is a" << a->AnimalName() << endl;
+    cout << "It  is a " << a->AnimalName() << endl;
 }
 
 void TestBreed(Animal* a) {
@@ -19,7 +19,7 @@ void TestBreed(Animal* a) {
     
 }void TestSize(Animal* a) {
 
-    cout <<"Animals's size:" << a->Size() << endl;
+    cout <<"It's size:" << a->Size() << endl;
 
 }
 

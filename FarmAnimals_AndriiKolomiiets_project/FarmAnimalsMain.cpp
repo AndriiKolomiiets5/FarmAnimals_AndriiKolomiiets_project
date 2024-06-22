@@ -19,64 +19,65 @@ using namespace std;
 
 int main()
 {
-    srand(time(NULL));
-    int FarmMoney = 1 + rand() % 1000;
+    
+ 
+         srand(time(NULL));
+         int FarmMoney = 1 + rand() % 2000;
+          
+   
 
+   
 
-    SMALL_RECT rect;
-    rect.Top = 0;
-    rect.Left = 0;
-    rect.Bottom = 50;
-    rect.Right = 100;
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleWindowInfo(hConsole, TRUE, &rect);
-
-    cout << "Welcome to the Farm\n";
+    cout << "<__Welcome to the Farm__>\n";
     this_thread::sleep_for(chrono::milliseconds(300));
-    cout << "List of the Animals" << endl;
+    cout << "List of the Animals:" << endl;
     this_thread::sleep_for(chrono::milliseconds(300));
     //
-    cout << "Pig";
-    this_thread::sleep_for(chrono::milliseconds(300));
-    Pig Pig_(14, 3, 98, 600);
+    Pig Pig_(15, 7, 98, 400);
     TestAnimal(&Pig_);
+    cout << "----------------------" << "\n";
     //
-    cout << "\t Horse \n";
-    this_thread::sleep_for(chrono::milliseconds(300));
+    this_thread::sleep_for(chrono::milliseconds(900));
     Horse Horse_(67, 12, 78, 1300);
     TestAnimal(&Horse_);
+    cout << "----------------------" << "\n";
     //
-    cout << "\t Cow \n";
-    this_thread::sleep_for(chrono::milliseconds(300));
+   
+    this_thread::sleep_for(chrono::milliseconds(900));
     Cow Cow_(90, 15, 45, 1000);
     TestAnimal(&Cow_);
+    cout << "----------------------" << "\n";
     //
     
-    cout << "\tChicken\n";
-    this_thread::sleep_for(chrono::milliseconds(300));
+    
+    this_thread::sleep_for(chrono::milliseconds(900));
     Chicken Chicken_(5, 2, 67, 100);
     TestAnimal(&Chicken_);
+    cout << "----------------------" << "\n";
     //
-    cout << "\tSheep\n";
-    this_thread::sleep_for(chrono::milliseconds(300));
+   this_thread::sleep_for(chrono::milliseconds(900));
     Sheep Sheep_(20, 5, 89, 400);
     TestAnimal(&Sheep_);
+    cout << "----------------------" << "\n";
     //
-    cout << "Which Animal you would like to buy" << endl;
-    ExpFarmer ExpFarmer("Key", "molt", FarmMoney);
-
+    
+    ExpFarmer ExpFarmer("Warren", "Tomson",FarmMoney);
+    
     TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Cow_);
-
     cout << "-----------" << endl;
     cout << "Week after:" << endl;
     this_thread::sleep_for(chrono::milliseconds(600));
+    FarmMoney = 1 + rand() % 2000;
+    ExpFarmer.SetMoney(FarmMoney);
     TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Pig_);
 
     cout << "--------" << endl;
     cout << "2 weeks after:" << endl;
     this_thread::sleep_for(chrono::milliseconds(600));
+    FarmMoney = 1 + rand() % 2000;
+    ExpFarmer.SetMoney(FarmMoney);
 
     TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Horse_);
@@ -84,13 +85,17 @@ int main()
     cout << "--------" << endl;
     cout << "3 weeks after:" << endl;
     this_thread::sleep_for(chrono::milliseconds(600));
+    FarmMoney = 1 + rand() % 2000;
+    ExpFarmer.SetMoney(FarmMoney);
 
     TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Chicken_);
 
     cout << "------------------------------" << endl;
-    cout << "Next day:" << endl;
+    cout << "4 weeks after:" << endl;
     this_thread::sleep_for(chrono::milliseconds(900));
+    FarmMoney = 1 + rand() % 2000;
+    ExpFarmer.SetMoney(FarmMoney);
 
     TestFarmer(&ExpFarmer);
     TestExp(&ExpFarmer, &Sheep_);
