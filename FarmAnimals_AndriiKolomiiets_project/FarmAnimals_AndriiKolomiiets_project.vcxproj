@@ -144,8 +144,8 @@
     <ClCompile Include="Cow.cpp" />
     <ClCompile Include="ExpFarmer.cpp" />
     <ClCompile Include="ExpFarmerTest.cpp" />
-    <ClCompile Include="FarmAnimalMain.cpp" />
     <ClCompile Include="Horse.cpp" />
+    <ClCompile Include="MainFarmAnimals.cpp" />
     <ClCompile Include="Pig.cpp" />
     <ClCompile Include="Sheep.cpp" />
   </ItemGroup>
