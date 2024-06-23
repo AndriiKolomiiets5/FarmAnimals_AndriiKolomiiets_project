@@ -2,15 +2,15 @@
 Sheep::Sheep(double _weight, double _age, double _HP, double _price) :
 	Animal(_weight, _age, _HP, _price) {}
 std::string Sheep::Name() {
-	return "Peppa";
+	return "Suzy";
 }
 std::string Sheep::AnimalName()
 {
-	return "Pig";
+	return "Sheep";
 }
 std::string Sheep::Breed() {
-	return "White Big pig";
+	return "Merino";
 }
 std::string Sheep::Size() {
-	return "Small";
+	return "Medium";
 }
