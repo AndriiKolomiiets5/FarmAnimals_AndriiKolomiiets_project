@@ -15,9 +15,9 @@ void TestFarmer(ExpFarmer* z) {
 void TestExp(ExpFarmer* z, Animal* x) {
    
     cout << "Experienced Farmer "<<z->GetName()<<" went to near farm to buy a " << x->AnimalName() << ". Let's see if he can do this.\n" << endl;
-    this_thread::sleep_for(chrono::milliseconds(100));
+    this_thread::sleep_for(chrono::seconds(2));
     cout << "For this animal he has to pay " << x->GetPrice() << " zl "<< endl;
-    this_thread::sleep_for(chrono::milliseconds(100));
+    this_thread::sleep_for(chrono::seconds(2));
    
     if (z->GetMoney() < x->GetPrice())
     {
