@@ -144,7 +144,7 @@
     <ClCompile Include="Cow.cpp" />
     <ClCompile Include="ExpFarmer.cpp" />
     <ClCompile Include="ExpFarmerTest.cpp" />
-    <ClCompile Include="FarmAnimalsMain.cpp" />
+    <ClCompile Include="FarmAnimalMain.cpp" />
     <ClCompile Include="Horse.cpp" />
     <ClCompile Include="Pig.cpp" />
     <ClCompile Include="Sheep.cpp" />

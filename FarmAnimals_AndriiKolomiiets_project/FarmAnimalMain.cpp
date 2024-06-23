@@ -1,4 +1,4 @@
-?#include <iostream>
+#include <iostream>
 #include <string>
 #include <thread>
 #include <chrono> 
@@ -52,7 +52,7 @@ int main()
     Cow Cow_(90, 15, 45, 1000);
     TestAnimal(&Cow_);
     //
-    
+
     cout << "\tChicken\n";
     this_thread::sleep_for(chrono::milliseconds(300));
     Chicken Chicken_(5, 2, 67, 100);

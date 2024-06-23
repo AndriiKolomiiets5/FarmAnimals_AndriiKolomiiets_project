@@ -71,7 +71,7 @@
     <ClCompile Include="AnimalTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FarmAnimalsMain.cpp">
+    <ClCompile Include="FarmAnimalMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
